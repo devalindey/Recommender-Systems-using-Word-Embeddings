@@ -6,7 +6,7 @@ Word2Vec is a simple neural network model with a single hidden layer. It predict
 
 Let’s see how it works with the sentence below:
 
-https://miro.medium.com/max/1126/1*nHCu34KJUpgPBa7FZutolA.png
+![Image of Yaktocat](https://miro.medium.com/max/1126/1*nHCu34KJUpgPBa7FZutolA.png)
 
 From the above, let’s assume the word “theorist” is our input word. It has a context window of size 2. This means we are considering only the 2 adjacent words on either side of the input word as the adjacent words.
 
