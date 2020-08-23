@@ -37,4 +37,4 @@ We need to find similar movies to a given movie and then recommend those similar
 
 As I mentioned above, we are using scraped IMDB data and don’t have a user's watch history. Hence, we won't use a collaborative recommendation engine.
 
-[Imgur](https://i.imgur.com/k6Md1hU.png)
+![Imgur](https://i.imgur.com/k6Md1hU.png)
