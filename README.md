@@ -3,7 +3,7 @@ Movie recommendation engines built using word embeddings.
 
 ## **What is Word2vec?**
 
-Word2Vec is a simple neural network model with a single hidden layer. It predicts the adjacent words for each and every word in the sentence or corpus. We need to get the weights that are learned by the hidden layer of the model and the same can be used as word embeddings.
+Word2Vec is a simple, hidden layered, neural network model. It determines the corresponding words in the sentence or corpus for each and every single word. We need to get the weights that are learned by the hidden layer of the model and the same can be used as word embeddings.
 
 
 ## **Average Word2vec**
@@ -35,7 +35,7 @@ Example: If a user likes the movie 'Avengers: Endgame', then the recommender sys
 
 We need to find similar movies to a given movie and then recommend those similar movies to the user. How to find whether the given movie is similar or dissimilar? A similarity measure was used to find the same. ***Cosine similarity*** was used in our recommender system to recommend the movies.
 
-As I mentioned above, we are using scraped IMDB data and don’t have a user's watch history. Hence, we won't use a collaborative recommendation engine.
+For this project, we are using scraped IMDB data and don’t have a user's watch history. Hence, we won't use a collaborative recommendation engine.
 
 
 <p align="center">
