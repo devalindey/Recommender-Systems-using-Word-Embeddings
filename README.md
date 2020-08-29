@@ -1,9 +1,9 @@
-# **Recommender-Systems-using-Word-Embeddings**
-Movie recommendation engines built using word embeddings.
+# **Recommender Systems using Word Embeddings**
+Movie recommendation engines built using Average Word2vec & TF-IDF Word2vec.
 
 ## **What is Word2vec?**
 
-Word2Vec is a simple, hidden layered, neural network model. It determines the corresponding words in the sentence or corpus for each and every single word. We need to get the weights that are learned by the hidden layer of the model and the same can be used as word embeddings.
+Word2vec is a simple, hidden layered, neural network model. It determines the corresponding words in the sentence or corpus for each and every single word. We need to get the weights that are learned by the hidden layer of the model and the same can be used as word embeddings.
 
 
 ## **Average Word2vec**
@@ -18,9 +18,9 @@ where,  vectors are in **D**-dimensional space, & **n** = total number of words.
 ## **TF-IDF Word2vec**
 TF-IDF is a term frequency-inverse document frequency. It helps to calculate the importance of a given word relative to other words in the document and in the corpus. It calculates in two quantities, TF and IDF. Combining two will give a **TF-IDF score**.
 
-*Steps to calculate the TF-IDF Word2Vec:*
+*Steps to calculate the TF-IDF Word2vec:*
 1. Calculate the TF-IDF vector for each word.
-2. Calculate the Word2Vec for each word.
+2. Calculate the Word2vec for each word.
 3. Multiply the TF-IDF score and Word2Vec vector representation of each word and total.
 4. Finally, divide the total by sum of TF-IDF vectors. It can be written as follow:
 
