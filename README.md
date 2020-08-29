@@ -1,4 +1,4 @@
-# **Recommender-Systems-using-Average-Word2vec-and-TF-IDF-Word2vec**
+# **Recommender-Systems-using-Word-Embeddings**
 Movie recommendation engines built using word embeddings.
 
 ## **What is Word2vec?**
